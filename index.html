@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ui card simple</title>
+  <style>
+    body {
+      background: linear-gradient(black, gray);
+      font-family: 'Courier New', monospace;
+      text-align: center;
+      height: 150vh;
+      margin: 0;
+      justify-content: center;
+      display: flex;
+      align-items: center;
+    }
+    .container {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      gap: 40px;
+    }
+    .box {
+      width: 300px;
+      padding: 20px;
+      border: 2px solid darkblue;
+      box-shadow: 0 0 10px cyan;
+      border-radius: 20%;
+      transition: 0.5s;
+      background: linear-gradient(gray, black, gray, black);
+    }
+    .box:hover {
+      transform: scale(1.1);
+      transition: 0.5s;
+      background: black;
+    }
+    h1 {
+      color: cyan;
+      text-shadow: 0 0 10px;
+    }
+    p {
+      color: gray;
+      text-shadow: 0 0 9px;
+    }
+  </style> 
+</head>
+<body>
+  <div class="container">
+    <div class="box">
+      <h1>my mom hates me if i learn programming</h1>
+      <p>it makes me really sad</p>
+    </div>
+    <div class="box">
+      <h1>why?</h1>
+      <p>i don't know why but just forget it and lets continue my programming skill</p>
+    </div>
+    <div class="box">
+      <h1>what did i do after that?</h1>
+      <p>i continue my journey in programming, why i should stop if i have a support from girlfriend?</p>
+    </div>
+  </div>
+
+</body>
+</html>
